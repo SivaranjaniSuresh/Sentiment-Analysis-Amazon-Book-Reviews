@@ -15,6 +15,9 @@ In this project, sentiment analysis was conducted on a dataset sourced from Amaz
 - [Data Augmentation](#data-augmentation)
 - [Data Preprocessing](#data-preprocessing)
 - [Data Splitting for Machine Learning Training and Testing](#data-splitting-for-machine-learning-training-and-testing)
+- [Model Building](#model-building)
+- [Conclusion](#conclusion)
+
 
 ## Datasets
 ### Books_rating.csv
