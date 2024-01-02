@@ -15,6 +15,7 @@ In this project, sentiment analysis was conducted on a dataset sourced from Amaz
 - [Data Augmentation](#data-augmentation)
 - [Data Preprocessing](#data-preprocessing)
 - [Data Splitting for Machine Learning Training and Testing](#data-splitting-for-machine-learning-training-and-testing)
+- [Model Deployed in Hugging Face](#model-deployed-in-hugging-face)
 - [Model Building](#model-building)
 - [Conclusion](#conclusion)
 
@@ -77,6 +78,12 @@ Data preprocessing steps involved removing stop words, lemmatization, and tokeni
 
 The raw text data undergoes crucial preprocessing steps to prepare it for machine learning models. Initially, the tokenized words are converted into space-separated strings, creating coherent text representations. To transform these textual inputs into numerical features, the Term Frequency-Inverse Document Frequency (TF-IDF) vectorization technique is employed. TF-IDF captures the importance of words within documents by considering their frequency and rarity across the entire dataset.
 
+## Model Deployed in Hugging Face
+
+https://huggingface.co/spaces/Sivaranjani-S/Book-Recommender
+
+<img width="1506" alt="image" src="https://github.com/SivaranjaniSuresh/Sentiment-Analysis-Amazon-Book-Reviews/assets/114537365/e6a389aa-b18c-4afa-88ce-1bbf207eeec8">
+
 ## Model Building
 
 ## Multinomial Naive Bayes
@@ -132,11 +139,6 @@ The raw text data undergoes crucial preprocessing steps to prepare it for machin
 ## Enhancing Model Performance Through Advanced Techniques
 Explored advanced techniques, employing methods such as Randomized Search Cross-Validation to optimize our models. These techniques are vital for ensuring that our models are not just accurate, but also robust and versatile.
 
-## Model Deployed in Hugging Face
-
-https://huggingface.co/spaces/Sivaranjani-S/Book-Recommender
-
-<img width="1506" alt="image" src="https://github.com/SivaranjaniSuresh/Sentiment-Analysis-Amazon-Book-Reviews/assets/114537365/e6a389aa-b18c-4afa-88ce-1bbf207eeec8">
 ## Random Forest Classifier Optimization
 The Random Forest classifier was carefully fine-tuned. Leveraging Randomized Search Cross-Validation, explored a variety of hyperparameters, including the number of estimators, maximum depth, and minimum samples split. Through this process, identified the optimal configuration: 300 estimators, unlimited depth, and a minimum of 2 samples required to split. This meticulous tuning significantly bolstered the model's accuracy and generalizability.
 
