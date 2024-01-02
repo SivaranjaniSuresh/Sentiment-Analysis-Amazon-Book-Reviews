@@ -146,4 +146,13 @@ The SVM classifier, known for its ability to handle complex data, was meticulous
 ## Comprehensive Evaluation and Visualization
 In our evaluation process, not only focused on accuracy but also delved into the nuances of precision, recall, and F1-score for each class. Also, visualized the classification report through a heatmap, providing a comprehensive overview of our models' performance across different sentiment classes. This visualization offered valuable insights into the strengths and areas for improvement for each classifier.
 
+### Before Hyperparameter tuning
+<img width="519" alt="image" src="https://github.com/SivaranjaniSuresh/Sentiment-Analysis-Amazon-Book-Reviews/assets/114537365/d06be47f-cb7f-416f-8794-01da79a4b713">
+
+### After Hyperparameter tuning 
+<img width="519" alt="image" src="https://github.com/SivaranjaniSuresh/Sentiment-Analysis-Amazon-Book-Reviews/assets/114537365/4a9296eb-bab7-41cb-af28-f3ec9df46690">
+
+## Conclusion
+Support Vector Machine (SVM) and Multinomial Naive Bayes classifiers emerged as powerful contenders, showcasing an impressive accuracy rate of 89% 
+
 
