@@ -4,6 +4,12 @@
 ## Abstract
 In this project, sentiment analysis was conducted on a dataset sourced from Amazon Books Reviews - Goodreads-books reviews and descriptions of each book. The dataset, a subset of the Amazon review Dataset, includes feedback from 3 million users on 212,404 unique books, spanning from May 1996 to July 2014.
 
+## Model Deployed in Hugging Face
+
+https://huggingface.co/spaces/Sivaranjani-S/Book-Recommender
+
+<img width="1506" alt="image" src="https://github.com/SivaranjaniSuresh/Sentiment-Analysis-Amazon-Book-Reviews/assets/114537365/e6a389aa-b18c-4afa-88ce-1bbf207eeec8">
+
 ## Table of Contents
 - [Datasets](#datasets)
 - [Data Characteristics](#data-characteristics)
